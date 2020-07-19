@@ -9,9 +9,9 @@ FROM_EMAIL = 'Your_Name@SendGridTest.com'
 TEMPLATE_ID = 'd-319dcfd11e55401bb126db9c5628cd82'
 
 # list of emails and preheader names, update with yours
-TO_EMAILS = [('beingdipanshu@gmail.com', 'James Holden'),
+TO_EMAILS = [('', 'James Holden'),
              # update email and name
-             ('ddipanshu_bemba16@thapar.edu', 'Joe Miller')]
+             ('', 'Joe Miller')]
 
 
 def SendDynamic():
