@@ -10,7 +10,7 @@ def create_content():
   return line
   
 def personalize(html):
-  emails = ["beingdipanshu@gmail.com","ddipanshu_bemba16@thapar.edu"]
+  emails = ["",""]
   personalization = Personalization()
   #make sure your template has a Substitution tag somewhere in it like "-Table-"
   personalization.add_substitution(Substitution("-Table-",html))
